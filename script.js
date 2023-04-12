@@ -2,12 +2,12 @@ window.addEventListener("load", () => {
   const signed = false;
   const ANSWER = signed ? "SIM!!!" : "NÃO!!! ";
   document.querySelector(".answer").innerHTML = `${ANSWER} <img src="${
-    signed ? "selecao.gif" : "/desespero.jpg"
+    signed ? "selecao.gif" : "desespero.jpg"
   }" />`;
 
   if (signed) {
     document.querySelector(".timer-container").innerHTML =
-      '<img src="/jj.webp" width="700" />';
+      '<img src="jj.webp" width="700" />';
   }
 });
 
